@@ -8,9 +8,9 @@ export function Contact() {
 
     return (
 
-        <Container className={classes.wrapper} size={'xl'}>
+        <Container className={classes.wrapper} size={'md'}>
             <Title fw={300} py={30}>Contact Us</Title>
-            <SimpleGrid cols={{base: 1, sm: 2}} spacing="xl">
+            <SimpleGrid cols={{base: 1, sm: 2}} spacing="lg" className={classes.inner}>
                 <div className={classes.contacts}>
                     <ContactIconsList/>
                 </div>

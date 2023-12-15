@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     @media (min-width: $mantine-breakpoint-md) {
-        min-height: calc(100vh - rem(90px));
+        min-height: calc(100vh - rem(200px));
     }
 }
 
@@ -46,7 +46,6 @@
     cursor: pointer;
 }
 .inner {
-    display: flex;
-    flex-direction: row;
     margin-bottom: var(--mantine-spacing-xl);
+    width: 100%;
 }
