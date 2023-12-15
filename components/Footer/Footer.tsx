@@ -9,7 +9,7 @@ export function Footer() {
 
                 <Group gap={0} className={classes.texts} justify="center" wrap="nowrap">
                     <Text> Locate Us</Text>
-                    <Text className={classes.text}>9 Tan Quee Lan Street, #02-05, S188098</Text>
+                    <Text component={'a'} href={'https://www.google.com/maps/search/?api=1&query=HARTS+(BUGIS)'} target={'_blank'} className={classes.text}>9 Tan Quee Lan Street, #02-05, S188098</Text>
                     <Text className={classes.text}>2 minutes walk from Bugis MRT Exit D</Text>
                 </Group>
                 <Group gap={0} className={classes.texts} justify="center" wrap="nowrap">
