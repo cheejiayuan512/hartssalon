@@ -50,7 +50,12 @@ export function Navbar() {
                 onClose={closeDrawer}
                 size="100%"
                 padding="md"
-                title="HARTS Salon"
+                title={<Image
+                className={classes.toastImage} src="/mainlogo-1.png"
+            width={153}
+            height={40}
+            alt="toast-image"
+            />}
                 hiddenFrom="sm"
                 zIndex={1000000}
             >
@@ -71,12 +76,11 @@ export function Navbar() {
                         Services
                     </Link>
                     <Divider my="sm"/>
+                    <Link href="/contact-us" className={classes.link}>
+                        Contact Us
+                    </Link>
+                    <Divider my="sm"/>
 
-                    <Group justify="center" grow pb="xl" px="md">
-                        <Button onClick={() => {
-                            router.push('/contact-us')
-                        }}>Contact Us</Button>
-                    </Group>
                 </ScrollArea>
             </Drawer>
         </>
