@@ -1,0 +1,48 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @media (min-width: $mantine-breakpoint-md) {
+        min-height: calc(100vh - rem(90px));
+    }
+}
+
+.title {
+    font-family:
+            var(--mantine-font-family);
+    font-weight: 300;
+    margin-bottom: var(--mantine-spacing-md);
+    text-align: center;
+    font-size: rem(20px);
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        font-size: rem(15px);
+
+    }
+}
+
+.description {
+    text-align: center;
+
+}
+.feature{
+    margin-top: var(--mantine-spacing-md);
+    margin-bottom: var(--mantine-spacing-md);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image{
+    margin-block: var(--mantine-spacing-xl);
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        margin-block: var(--mantine-spacing-sm);
+
+    }
+
+}
+.image:hover {
+    cursor: pointer;
+}

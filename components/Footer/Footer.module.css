@@ -1,0 +1,26 @@
+.footer {
+    border-top: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-5));
+}
+
+.inner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: var(--mantine-spacing-md);
+    padding-bottom: var(--mantine-spacing-md);
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        flex-direction: column;
+    }
+}
+
+.texts {
+   display: flex;
+   flex-direction: column!important;
+    min-height: 75px;
+    padding-block: 10px;
+}
+.text{
+    color: #6D6D6D!important;
+    font-weight: 400!important;
+}
