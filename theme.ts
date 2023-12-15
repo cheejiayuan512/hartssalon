@@ -2,9 +2,7 @@
 
 import { createTheme } from '@mantine/core';
 
-
 import { Source_Sans_3 } from 'next/font/google'
-import {generateColors} from "@mantine/colors-generator";
 const sourceSans3 = Source_Sans_3({ subsets: ['latin'] })
 export const theme = createTheme({
   /* Put your mantine theme override here */
