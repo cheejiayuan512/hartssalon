@@ -78,7 +78,7 @@ export function Award({image, link}: AwardProps) {
             alt={'award'}
             width={240}
             height={240}
-            src={image} onClick={()=>window.open(link, '_blank').focus()}/>
+            src={image} onClick={()=>window.open(link, '_blank')}/>
     );
 }
 
